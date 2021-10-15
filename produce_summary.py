@@ -5,8 +5,8 @@ for line in the_file:
     words = line.split('|')
 
     melon = words[0]
-    count = words[0]
-    amount = words[0]
+    count = words[1]
+    amount = words[2]
 
     print(f"Delivered {count} {melon}s for total of ${amount}")
 the_file.close()
@@ -19,8 +19,8 @@ for line in the_file:
     words = line.split('|')
 
     melon = words[0]
-    count = words[0]
-    amount = words[0]
+    count = words[1]
+    amount = words[2]
 
     print(f"Delivered {count} {melon}s for total of ${amount}")
 the_file.close()
@@ -33,8 +33,8 @@ for line in the_file:
     words = line.split('|')
 
     melon = words[0]
-    count = words[0]
-    amount = words[0]
+    count = words[1]
+    amount = words[2]
 
     print(f"Delivered {count} {melon}s for total of ${amount}")
 the_file.close()
